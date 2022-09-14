@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ad98;
+  flex-direction: column;
+}
+.banner-img {
+  height: 80vh;
+}
+#title {
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+#description {
+  z-index: 8;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+  align-items: center;
+  justify-content: baseline;
+  display: flex;
+  text-align: center;
+  margin-bottom: -60px;
+  z-index: 100;
+}
+
+#black-dot1 {
+  background-color: black;
+  height: 60px;
+  border-radius: 100%;
+  width: 60px;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  z-index: -100;
+}
+#black-dot5 {
+  background-color: black;
+  height: 75px;
+  border-radius: 100%;
+  width: 75px;
+  position: absolute;
+  top: 175px;
+  right: 188px;
+  z-index: -100;
+}
+#black-dot6 {
+  background-color: black;
+  height: 69px;
+  border-radius: 100%;
+  width: 69px;
+  position: absolute;
+  top: 69px;
+  right: 69px;
+  z-index: -100;
+}
+#black-dot2 {
+  background-color: black;
+  height: 50px;
+  border-radius: 100%;
+  width: 50px;
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  z-index: -100;
+}
+#black-dot4 {
+  background-color: black;
+  height: 60px;
+  border-radius: 100%;
+  width: 60px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  z-index: -100;
+}
+#black-dot3 {
+  background-color: black;
+  height: 60px;
+  border-radius: 100%;
+  width: 60px;
+  position: absolute;
+  top: 500px;
+  left: 70px;
+  z-index: -100;
+}
+#white-dot1 {
+  background-color: white;
+  height: 70px;
+  border-radius: 100%;
+  width: 70px;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  z-index: -100;
+}
+
+#white-dot2 {
+  background-color: white;
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+  position: absolute;
+  top: 470px;
+  right: 20px;
+  z-index: -100;
+}
+#white-dot3 {
+  background-color: white;
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  z-index: -100;
+}
+#white-dot4 {
+  background-color: white;
+  height: 80px;
+  border-radius: 100%;
+  width: 80px;
+  position: absolute;
+  top: 400px;
+  right: 170px;
+  z-index: -100;
+}
+
+#github {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#download {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+#download:hover {
+  text-decoration: none;
+  background-color: white;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  color: #00ad98;
+  padding: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+#footer {
+  width: 100%;
+  height: 60px;
+}
+#legacy-link {
+  text-decoration: underline;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+}

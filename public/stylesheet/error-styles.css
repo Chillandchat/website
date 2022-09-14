@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+#error {
+  height: 70px;
+}
+
+#title {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+#message {
+  margin-top: -10px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}

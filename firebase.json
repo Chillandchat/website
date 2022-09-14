@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "chillandchat-mobile",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "src/**/**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
