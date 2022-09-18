@@ -1,5 +1,5 @@
 function download() {
-  var ERROR_LINK = "/error.html";
+  var ERROR_LINK = "https://chillandchat-mobile.web.app/error.html";
   var ANDROID_LINK =
     "https://expo.dev/@cheng-alvin/chill-and-chat-mobile-app?serviceType=classic&distribution=expo-go";
 
