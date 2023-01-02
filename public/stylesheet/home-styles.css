@@ -191,6 +191,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   transition-duration: 0.5s;
+  z-index: 100;
 }
 
 #download:hover {
@@ -211,6 +212,7 @@ body {
 #footer {
   width: 100%;
   height: 60px;
+  z-index: 100;
 }
 #legacy-link {
   text-decoration: underline;
