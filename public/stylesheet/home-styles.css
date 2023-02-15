@@ -11,11 +11,16 @@ body {
   padding: 80px;
   z-index: 100;
 }
+/* #video-demo {
+  display: "flex";
+  border-radius: 40px;
+} */
 #title {
   z-index: 1;
   color: white;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
+  padding-top: 10vh;
 }
 
 #description {
