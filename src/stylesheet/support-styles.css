@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ad98;
+  flex-direction: column;
+  z-index: 0;
+  margin-top: 40px;
+}
+
+#title {
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5vh;
+  font-size: 40px;
+}
