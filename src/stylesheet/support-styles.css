@@ -16,3 +16,21 @@ body {
   padding-top: 5vh;
   font-size: 40px;
 }
+
+#text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  z-index: 100;
+}
+
+/* TODO: Add styles for elements: */
+.help-icon {
+}
+
+.help-container {
+}
